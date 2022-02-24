@@ -1,0 +1,9 @@
+server:
+  port: 8089
+spring:
+  application:
+    name: service-client
+nacos:
+  discovery:
+    server-addr: localhost:8848
+    autoRegister: true
